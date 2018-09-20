@@ -48,7 +48,7 @@ git push
 ```
 Alle commits in je lokale repository zullen nu worden doorgevoerd op je remote repository
 
----
+___
 Ben je echter gestart met eerst een lokale repository op te zetten door `git init` uit te voeren, dan moet je nog een link leggen tussen je lokale repository (op je laptop) en je remote repository (bv op GitHub)
 
 Hoe ga je te werk:
@@ -58,4 +58,4 @@ Hoe ga je te werk:
 
 Vanaf nu kan je ook heel makkelijk door enkel ```git push``` uit te voeren je code naar de remote repository sturen
 
----
+___
