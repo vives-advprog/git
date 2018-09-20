@@ -89,7 +89,7 @@ Dit kunnen bijvoorbeeld
 * gebruikersspecifieke bestanden zijn met de settings van je IDE bv.
 * Bestanden en mappen die gegeneerd worden. Bv: target folder nu het builden van een project
 * logfiles van je applicatie
-* dependencies die via maven beheert worden
+* dependencies die via maven beheerd worden
 * ...
 
 [Een voorbeeld die voldoende is voor tijdens het vak Fundamentals of Programming 2 vind je hier](https://github.com/vivesfop2/fop-gitignore)
