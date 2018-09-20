@@ -75,3 +75,19 @@ git commit -m "message"
 git pull
 git push
 ```
+
+## .gitignore
+Voeg in je git repository een hidden file toe: .gitignore (schrijfwijze is van belang)
+
+In dit bestand kan je een opsomming geven van andere bestanden of mappen uit je project die je liever niet in je git repository wenst.
+
+Dit kunnen bijvoorbeeld
+* gebruikersspecifieke bestanden zijn met de settings van je IDE bv.
+* Bestanden en mappen die gegeneerd worden. Bv: target folder nu het builden van een project
+* logfiles van je applicatie
+* dependencies die via maven beheert worden
+* ...
+
+[Een voorbeeld die voldoende is voor tijdens het vak Fundamentals of Programming 2 vind je hier](https://github.com/vivesfop2/fop-gitignore)
+
+> Voeg dit .gitignore bestand toe aan ieder project dat je wil bijhouden in een git-repository. Voeg dit bestand toe nog voor je een eerste commit doet!
