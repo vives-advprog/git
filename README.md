@@ -16,7 +16,7 @@ git init
 De map waarin je dit command hebt uitgevoerd is nu een lokale git repository. Een .git folder wordt toegevoegd aan die map
 
 
-![Three tree architecture](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Three tree architecture")
+![Three tree architecture](https://github.com/vivesfop2/werken-met-git/blob/master/images/threetree.png "Three tree architecture")
 
 ### Lokale aanpassingen
 Welke files zijn er gewijzigd in mijn working directory? Op welke branch werk ik
