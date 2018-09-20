@@ -92,6 +92,6 @@ Dit kunnen bijvoorbeeld
 * dependencies die via maven beheerd worden
 * ...
 
-[Een voorbeeld die voldoende is voor tijdens het vak Fundamentals of Programming 2 vind je hier](https://github.com/vivesfop2/fop-gitignore)
+[Een voorbeeld die voldoende is voor tijdens het vak Fundamentals of Programming 2 vind je hier](https://github.com/vivesfop2/fop-gitignore/blob/master/.gitignore)
 
 > Voeg dit .gitignore bestand toe aan ieder project dat je wil bijhouden in een git-repository. Voeg dit bestand toe nog voor je een eerste commit doet!
