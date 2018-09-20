@@ -59,3 +59,19 @@ Hoe ga je te werk:
 Vanaf nu kan je ook heel makkelijk door enkel ```git push``` uit te voeren je code naar de remote repository sturen
 
 ___
+### Updaten van je remote repository
+Je werkt met meerdere aan hetzelfde project en je versie op je lokale repository loopt achter met de versie op je remote repository. Je medestudent(en) hebben dus reeds wijzigen doorgevoerd op de remote repository die jij nog niet staan hebt. Uiteraard wil je deze ook
+
+Deze kan je ophalen als volgt:
+```
+git pull
+```
+
+### Een goeie git workflow
+Eenmaal je remote repository er staat en deze gesyncht is met je lokale repository is volgende workflow aan te raden om met git te werken
+```
+git add <file>
+git commit -m "message"
+git pull
+git push
+```
