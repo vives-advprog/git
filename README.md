@@ -77,7 +77,9 @@ git push
 ```
 
 ## .gitignore
-Voeg in je git repository een hidden file toe: .gitignore (schrijfwijze is van belang)
+Voeg in de root van je git repository een hidden file toe: .gitignore (schrijfwijze is van belang).
+
+De hidden file .gitignore staat dus naar de hidden map .git in je projectmap
 
 In dit bestand kan je een opsomming geven van andere bestanden of mappen uit je project die je liever niet in je git repository wenst.
 
