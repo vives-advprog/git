@@ -47,6 +47,7 @@ Je code doorsturen naar de remote repository kan nu heel makkelijk door:
 git push
 ```
 Alle commits in je lokale repository zullen nu worden doorgevoerd op je remote repository
+
 ---
 Ben je echter gestart met eerst een lokale repository op te zetten door `git init` uit te voeren, dan moet je nog een link leggen tussen je lokale repository (op je laptop) en je remote repository (bv op GitHub)
 
@@ -56,4 +57,5 @@ Hoe ga je te werk:
 * Push je lokale repository naar je remote repository: ```git push -u origin master```
 
 Vanaf nu kan je ook heel makkelijk door enkel ```git push``` uit te voeren je code naar de remote repository sturen
+
 ---
