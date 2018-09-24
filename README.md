@@ -71,7 +71,7 @@ Ben je echter gestart met eerst een lokale repository op te zetten door `git ini
 Hoe ga je te werk:
 * Maak een nieuwe **lege** remote repository aan op GitHub (of je krijgt die van de docenten)
 * Leg connectie met je remote repository: ``git remote add origin <URL remote repo>``
-* Push je lokale repository naar je remote repository: ```git push -u origin master``
+* Push je lokale repository naar je remote repository: ``git push -u origin master``
 
 vb:
 ```
