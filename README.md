@@ -13,7 +13,7 @@ git config --global user.name "[name]"
 
 Je emailadres instellen dat zichtbaar zal zijn bij iedere commit
 ```
-git config --global user.email "[emailadres@student.vives.be]"
+git config --global user.email "[voornaam.familienaam@student.vives.be]"
 ```
 
 ### Nieuwe repository
@@ -70,17 +70,24 @@ Ben je echter gestart met eerst een lokale repository op te zetten door `git ini
 
 Hoe ga je te werk:
 * Maak een nieuwe **lege** remote repository aan op GitHub (of je krijgt die van de docenten)
-* Leg connectie met je remote repository: ```git remote add origin <URL remote repo>```
-* Push je lokale repository naar je remote repository: ```git push -u origin master```
+* Leg connectie met je remote repository: `git remote add origin <URL remote repo>``
+* Push je lokale repository naar je remote repository: `git push -u origin master``
+
+vb:
+```
+git remote add origin https://github.com/githubusername/myremoterepository.git
+git push -u origin master
+```
 
 Vanaf nu kan je ook heel makkelijk door enkel ```git push``` uit te voeren je code naar de remote repository sturen
+
+___
 
 ``git push`` commando neemt 2 argumenten
 ```
 git push <RemoteName> <BranchName>
 ```
 
-___
 ### Remote >> local repository
 Je werkt met meerdere aan hetzelfde project en je versie op je lokale repository loopt achter met de versie op je remote repository. Je medestudent(en) hebben dus reeds wijzigen doorgevoerd op de remote repository die jij nog niet staan hebt. Uiteraard wil je deze ook
 
@@ -89,7 +96,7 @@ Deze kan je ophalen als volgt:
 git pull
 ```
 
-### Een goeie git workflow
+## Een goeie git workflow
 Eenmaal je remote repository er staat en deze gesyncht is met je lokale repository is volgende workflow aan te raden om met git te werken
 ```
 git add <file>
