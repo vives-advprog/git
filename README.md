@@ -2,7 +2,7 @@
 
 Git is een gratis en opensource gedistribueerd versiebeheersysteem om je (software)broncode te managen.
 
-In het vak Fundaments of Programming 2 zullen we zo veel mogelijk git gebruiken voor het beheren van onze projecten.
+In het vak Advanced Programming zullen we zo veel mogelijk git gebruiken voor het beheren van projecten, opdrachten, oplossingen, ...
 
 ## Commando's
 ### git configureren
