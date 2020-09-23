@@ -19,7 +19,7 @@ git config --global user.email "[voornaam.familienaam@student.vives.be]"
 ### Nieuwe repository
 Bestaat er reeds een remote repository (bv. op GitHub) dan kan je deze repository clonen (= downloaden van het project met volledige versie geschiedenis)
 ```
-git clone https://github.com/vivesfop2/fop-gitignore.git
+git clone https://github.com/vives-advprog/fop-gitignore.git
 ```
 
 Bestaat er nog geen remote repository, maar je hebt wel al lokaal files (code) staan. Maak dan een lokale repository aan
@@ -47,7 +47,7 @@ Commit alle bestanden die je hebt toegevoegd aan de staging directory.
 git commit -m "een duidelijke omschrijving van je wijzigigen"
 ```
 
-![Three tree architecture](https://github.com/vivesfop2/werken-met-git/blob/master/images/threetree.png "Three tree architecture")
+![Three tree architecture](https://github.com/vives-advprog/werken-met-git/blob/master/images/threetree.png "Three tree architecture")
 
 ### Geschiedenis opvragen
 Toon alle commits, starten met de nieuwste
