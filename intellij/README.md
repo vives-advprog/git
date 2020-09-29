@@ -26,7 +26,9 @@ Kies voor `Get from Version Control`
 
 Of via Intellij menu: **VCS | Get from Version Control**
 
-Geef de url van de remote repository op in het veld URL en bepaal in welke directory je het project wil clonen.
+![git remote repo](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/gitRemoteRepo.png 'git remote repo')
+
+Geef de url van de remote repository (die je net hebt gekopieerd) op in het veld URL en bepaal in welke directory je het project wil clonen.
 
 ![git clone](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/gitClone.png 'git clone')
 
@@ -77,17 +79,15 @@ URL: <de url van de lege remote repository> (deze vind je terug in de blauwe bal
 
 ![Add remote ok](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/addRemoteOk.png 'add remote ok')
 
-Ok
-
 ## Add, commit, push & pull
 
 Er zijn heel wat opties in Intellij om bestanden toe te voegen aan de staging area, bestanden te committen in de local repository of te pushen naar de remote repository
 
+### Add/Commit
+
 * Via de git pane: **View | Tool Windows | Git**
 * CTRL+K (of ⌘K)
 * Icoon in menubar = Groen vinkje* Rechts klikken op een file/folder/projectroot: **Git | Commit File... / Add**
-
-### Commit
 
 ![commit](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/commit.png 'commit')
 
