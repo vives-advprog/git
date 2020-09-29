@@ -79,14 +79,13 @@ URL: <de url van de lege remote repository> (deze vind je terug in de blauwe bal
 
 Ok
 
-## Add, commit en push
+## Add, commit, push & pull
 
 Er zijn heel wat opties in Intellij om bestanden toe te voegen aan de staging area, bestanden te committen in de local repository of te pushen naar de remote repository
 
 * Via de git pane: **View | Tool Windows | Git**
 * CTRL+K (of ⌘K)
-* Iconen bovenaan in menubar
-* Rechts klikken op een file/folder/projectroot: **Git | Commit File... / Add**
+* Icoon in menubar = Groen vinkje* Rechts klikken op een file/folder/projectroot: **Git | Commit File... / Add**
 
 ### Commit
 
@@ -108,14 +107,14 @@ Rechts: vink de opties "Perform code analysis" en "Check TODO" af
 
 Onderaan:
 
-* Commit
-* Commit and Push
+* Commit  = `git commit`
+* Commit and Push = `git commit & git push`
 
 ![commit push](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/commitAndPush.png 'commit push')
 
 ### Push
 
-Nadat je alle wijzigingen hebt gecommit naar je lokale repository wil je deze ook doorvoeren naar je remote repository
+Nadat je alle wijzigingen hebt gecommit naar je lokale repository wil je deze ook doorvoeren naar je remote repository = `git push`
 
 * CTRL+Shift+K (of ⌘+Shift+K)
 * Iconen bovenaan in menubar
@@ -126,3 +125,21 @@ Nadat je alle wijzigingen hebt gecommit naar je lokale repository wil je deze oo
 Push dialog met alle lokale commits opgelijst
 
 ![push dialog](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/pushDialog.png 'push dialog')
+
+### Pull
+
+Ophalen van wijzigingen van remote repository naar lokale Repository = `git pull`
+
+* Rechts klikken op een file/folder/projectroot: **Git | Repository | Pull**
+
+### Update
+
+* CTRL+T (of ⌘T)
+* Intellij menu: **VCS | Update project**
+* Icoon in menubar = Blauwe pijl naar beneden
+
+![update](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/update.png 'update')
+
+Kies voor: _merge incoming changes into the current branch_
+
+![merge](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/merge.png 'merge')
