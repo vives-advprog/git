@@ -18,7 +18,7 @@ Het project waarin je dit hebt uitgevoerd is nu een lokale git repository. Een `
 
 Bestaat er reeds een remote repository (bv. op GitHub) dan kan je deze repository clonen (= downloaden van het project met volledige versie geschiedenis)
 
-Open Intellij (zonder project). Je ziet het Welcom screen
+Open Intellij (zonder project). Je krijgt het Welcome screen te zien
 
 ![Intellij splash](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/IntellijSplash.png 'Intellij splash')
 
@@ -26,15 +26,17 @@ Kies voor `Get from Version Control`
 
 Of via Intellij menu: **VCS | Get from Version Control**
 
+---
+
 ![git remote repo](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/gitRemoteRepo.png 'git remote repo')
 
-Geef de url van de remote repository (die je net hebt gekopieerd) op in het veld URL en bepaal in welke directory je het project wil clonen.
+Geef de url van de remote repository (die je net hebt gekopieerd uit bovenstaand scherm) op in het veld URL en bepaal in welke directory je het project wil clonen.
 
 ![git clone](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/gitClone.png 'git clone')
 
 Klik op clone
 
-Merk langs de linkerkant van bovenstaand scherm onder "Repository URL" ook een mogelijkheid op om repositories gekoppeld aan je GitHub account te clonen. Hiervoor dien je je GitHub account toe te voegen in Intellij (zie verder in dit document voor meer info).
+Merk langs de linkerkant van bovenstaand scherm onder "Repository URL" ook een mogelijkheid op om repositories gekoppeld aan je GitHub account te clonen. Hiervoor dien je je GitHub account toe te voegen in Intellij (zie verder in dit document: Register a GitHub account﻿).
 
 ## Exclude files from version control (ignore)
 
@@ -67,6 +69,8 @@ Als je echter start vanaf een lokaal git project, een local repository, die je o
 Voorwaarde: Er bestaat reeds een lege remote repository (bv. op GitHub)
 ![leeg remote](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/leegRemote.png 'leeg remote')
 
+Voorwaarde: je project is reeds een local git repository
+
 Intellij menu: **VCS | git | Remotes...**
 
 Klik op de +
@@ -75,19 +79,20 @@ Klik op de +
 
 Name: origin
 
-URL: <de url van de lege remote repository> (deze vind je terug in de blauwe balk op GitHub)
+URL: <de url van de lege remote repository> (deze vind je terug in de blauwe balk op GitHub en eindigt op .git)
 
 ![Add remote ok](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/addRemoteOk.png 'add remote ok')
 
 ## Add, commit, push & pull
 
-Er zijn heel wat opties in Intellij om bestanden toe te voegen aan de staging area, bestanden te committen in de local repository of te pushen naar de remote repository
+Er zijn meerdere mogelijkheden om in Intellij bestanden toe te voegen aan de staging area, bestanden te committen in de local repository of te pushen/pullen naar/van de remote repository
 
 ### Add/Commit
 
-* Via de git pane: **View | Tool Windows | Git**
+* Via de Git tool window: **View | Tool Windows | Git**
 * CTRL+K (of ⌘K)
-* Icoon in menubar = Groen vinkje* Rechts klikken op een file/folder/projectroot: **Git | Commit File... / Add**
+* Rechts klikken op een file/folder/projectroot: **Git | Commit File... / Add**
+* Icoon in menubar = Groen vinkje
 
 ![commit](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/commit.png 'commit')
 
@@ -97,7 +102,7 @@ Commit changes dialog:
 
 Bovenaan: Bestanden die reeds zijn toegevoegd aan local repository (groen en blauw) en bestanden die nog niet zijn toegevoegd onder Unversioned Files (rood)
 
-Vink een unversioned file aan om deze toe te voegen aan je staging area = `git add <naam van het bestand>`
+Vink een _Unversioned File_ aan om deze toe te voegen aan je staging area = `git add <naam van het bestand>`
 
 Commit message: geef een message mee die hoort bij de commit = `git commit -m "Mijn commit message"`
 
@@ -117,7 +122,7 @@ Onderaan:
 Nadat je alle wijzigingen hebt gecommit naar je lokale repository wil je deze ook doorvoeren naar je remote repository = `git push`
 
 * CTRL+Shift+K (of ⌘+Shift+K)
-* Iconen bovenaan in menubar
+* Icoon bovenaan in menubar
 * Rechts klikken op een file/folder/projectroot: **Git | Repository | Push**
 
 ![push](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/push.png 'push')
@@ -143,3 +148,48 @@ Ophalen van wijzigingen van remote repository naar lokale Repository = `git pull
 Kies voor: _merge incoming changes into the current branch_
 
 ![merge](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/merge.png 'merge')
+
+## Log en History
+
+### Log
+
+Lijst alle commits op met bijhorende wijzigingen
+
+Intellij menu: **View | Tool Windows | Git**
+
+Tabblad: Log
+
+![git log](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/gitLog.png 'git log')
+
+* Links: Overzicht van de verschillende branches, zowel op je local repository als op de remote repository
+* Midden: Overzicht van alle commits
+* Rechts: Source code die werd gewijzigd in de geselecteerde commit
+
+Dubbel klik op 1 van die bestanden of kies voor Show Diff om de wijzigingen van die commit op te vragen
+
+![show diff](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/showDiff.png 'show diff')
+
+![compare diff](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/compareDiff.png 'compare diff')
+
+### History
+
+Ophalen van de git history van 1 bestand
+
+* Rechts klikken op een file: **Git | Show history**
+
+In het Git Tool Window wordt een extra tabblad toegevoegd met de history van enkel dat bestand
+
+![history file](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/historyFile.png 'history file')
+
+## Register a GitHub account﻿
+
+![preferences](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/preferences.png 'preferences')
+
+Windows: **File | Settings**
+MacOS: **Intellij IDEA | Preferences**
+
+**Settings/Preferences | Version Control | GitHub**
+
+Klik + om een GitHub account toe te voegen
+
+Log in Via GitHub
