@@ -4,12 +4,10 @@ Git is een gratis en opensource gedistribueerd versiebeheersysteem om je (softwa
 
 In het vak Advanced Programming zullen we zo veel mogelijk git gebruiken voor het beheren van projecten, opdrachten, oplossingen, ...
 
-![Three tree architecture](https://github.com/vives-advprog/werken-met-git/blob/master/images/threetree.png "Three tree architecture")
-
 ![Git Workflow](https://github.com/vives-advprog/werken-met-git/blob/master/images/workflow.png "Git Workflow")
 
-* [Werken met git via de command line](#enable-version-control)
-* [Werken met git in Intellij](#check-out-a-project-from-a-remote-host--clone-)
+* [Werken met git via de command line](https://github.com/vives-advprog/werken-met-git/tree/master/commandline)
+* [Werken met git in Intellij](https://github.com/vives-advprog/werken-met-git/tree/master/intellij)
 
 ## .gitignore
 Voeg in de root van je git repository een hidden text file toe: _.gitignore_ (schrijfwijze is van belang).
