@@ -1,4 +1,4 @@
-# Werken met git
+# Git
 
 Git is een gratis en opensource gedistribueerd versiebeheersysteem om je (software)broncode te managen.
 

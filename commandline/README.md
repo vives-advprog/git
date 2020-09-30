@@ -1,6 +1,16 @@
 # Werken met git via de command line
 
-### git configureren
+  * [git configureren](#git-configureren)
+  * [Nieuwe repository](#nieuwe-repository)
+  * [Lokale aanpassingen](#lokale-aanpassingen)
+  * [Geschiedenis opvragen](#geschiedenis-opvragen)
+  * [Synchroniseren van aanpassingen](#synchroniseren-van-aanpassingen)
+    + [Local >> remote repository](#local----remote-repository)
+    + [Remote >> local repository](#remote----local-repository)
+  * [Een goeie git workflow](#een-goeie-git-workflow)
+  * [.gitignore](#gitignore)
+
+## git configureren
 Je username instellen die zichtbaar zal zijn bij iedere commit
 ```
 git config --global user.name "[name]"
@@ -11,7 +21,7 @@ Je emailadres instellen dat zichtbaar zal zijn bij iedere commit
 git config --global user.email "[voornaam.familienaam@student.vives.be]"
 ```
 
-### Nieuwe repository
+## Nieuwe repository
 Bestaat er reeds een remote repository (bv. op GitHub) dan kan je deze repository clonen (= downloaden van het project met volledige versie geschiedenis)
 ```
 git clone https://github.com/vives-advprog/fop-gitignore.git
@@ -23,7 +33,7 @@ git init
 ```
 De map waarin je dit command hebt uitgevoerd is nu een lokale git repository. Een .git folder wordt toegevoegd aan die map
 
-### Lokale aanpassingen
+## Lokale aanpassingen
 Welke files zijn er nieuw en/of gewijzigd in mijn working directory sinds m'n laatste commit? Op welke branch werk ik?
 ```
 git status
@@ -44,7 +54,7 @@ git commit -m "een duidelijke omschrijving van je wijzigigen"
 
 ![Three tree architecture](https://github.com/vives-advprog/werken-met-git/blob/master/images/threetree.png "Three tree architecture")
 
-### Geschiedenis opvragen
+## Geschiedenis opvragen
 Toon alle commits, starten met de nieuwste
 ```
 git log
