@@ -1,6 +1,5 @@
 # Werken met git in Intellij
 
-
   * [Enable version control](#enable-version-control)
   * [Check out a project from a remote host (clone)](#check-out-a-project-from-a-remote-host--clone-)
   * [Exclude files from version control (ignore)](#exclude-files-from-version-control--ignore-)
@@ -198,7 +197,27 @@ In het Git Tool Window wordt een extra tabblad toegevoegd met de history van enk
 
 ![history file](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/historyFile.png 'history file')
 
-## Register a GitHub account﻿
+## Register a GitHub account
+
+Open https://github.com en log in
+
+Ga naar de settings van je profiel: https://github.com/settings/profile
+
+Kies in de linkerkolom voor: Developer settings 
+
+Om vervolgens in de linkerkolom **Personal access tokens** aan te klikken
+
+![accessToken](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/accessToken.png 'accessToken')
+
+Klik op de knop **Generate new token**
+
+Geef die een naam (Note). Bv: Intellij
+
+Vink alle vinkjes aan en klik onderaan op **Generate token**
+
+![resultToken](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/resultToken.png 'resultToken')
+
+Kopieer het token en open Intellij
 
 ![preferences](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/preferences.png 'preferences')
 
@@ -209,4 +228,9 @@ MacOS: **Intellij IDEA | Preferences**
 
 Klik + om een GitHub account toe te voegen
 
-Log in Via GitHub
+Log in Via token
+
+![token](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/token.png 'token')
+
+Plak het net aangemaakte token in Intellij
+
