@@ -31,7 +31,7 @@ Bestaat er nog geen remote repository, maar je hebt wel al lokaal files (code) s
 ```
 git init
 ```
-De map waarin je dit command hebt uitgevoerd is nu een lokale git repository. Een .git folder wordt toegevoegd aan die map
+De map waarin je dit command hebt uitgevoerd is nu een lokale git repository. Een .git folder (hidden folder) wordt toegevoegd aan die map
 
 ## Lokale aanpassingen
 Welke files zijn er nieuw en/of gewijzigd in mijn working directory sinds m'n laatste commit? Op welke branch werk ik?
