@@ -62,7 +62,7 @@ Voeg een `.gitignore` bestand toe aan de root van je project.
 
 Intellij menu: **New | File** met de naam `.gitignore`
 
-Inhoud van de file: https://github.com/vives-advprog/fop-gitignore/blob/master/.gitignore
+Inhoud van de file: https://github.com/vives-advprog/gitignore/blob/master/.gitignore
 
 ## Check project status﻿
 
