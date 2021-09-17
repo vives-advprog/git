@@ -211,7 +211,7 @@ Om vervolgens in de linkerkolom **Personal access tokens** aan te klikken
 
 Klik op de knop **Generate new token**
 
-Geef die een naam (Note). Bv: Intellij
+Geef die een naam (Note). Bv: Intellij of commandline (afhankelijk waarvoor je het gebruikt)
 
 Vink alle vinkjes aan en klik onderaan op **Generate token**
 
