@@ -5,8 +5,8 @@
   * [Lokale aanpassingen](#lokale-aanpassingen)
   * [Geschiedenis opvragen](#geschiedenis-opvragen)
   * [Synchroniseren van aanpassingen](#synchroniseren-van-aanpassingen)
-    + [Local >> remote repository](#local----remote-repository)
-    + [Remote >> local repository](#remote----local-repository)
+    + [Local naar remote repository](#local-naar-remote-repository)
+    + [Remote naar local repository](#remote-naar-local-repository)
   * [Een goeie git workflow](#een-goeie-git-workflow)
   * [.gitignore](#gitignore)
 
@@ -61,7 +61,7 @@ git log
 ```
 
 ## Synchroniseren van aanpassingen
-### Local >> remote repository
+### Local naar remote repository
 Heb je in een eerste fase een `git clone https://...` uitgevoerd, dan bestaat er reeds een link tussen je lokale repository (op je laptop) en je remote repository (bv op GitHub)
 
 Je code doorsturen naar de remote repository kan nu heel makkelijk door:
@@ -93,7 +93,7 @@ ___
 git push <RemoteName> <BranchName>
 ```
 
-### Remote >> local repository
+### Remote naar local repository
 Je werkt met meerdere aan hetzelfde project en je versie op je lokale repository loopt achter met de versie op je remote repository. Je medestudent(en) hebben dus reeds wijzigen doorgevoerd op de remote repository die jij nog niet staan hebt. Uiteraard wil je deze ook
 
 Deze kan je ophalen als volgt:
