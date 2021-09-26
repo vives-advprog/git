@@ -1,8 +1,8 @@
 # Werken met git in Intellij
 
   * [Enable version control](#enable-version-control)
-  * [Check out a project from a remote host (clone)](#check-out-a-project-from-a-remote-host--clone-)
-  * [Exclude files from version control (ignore)](#exclude-files-from-version-control--ignore-)
+  * [Check out a project from a remote host: clone](#check-out-a-project-from-a-remote-host--clone)
+  * [Exclude files from version control: ignore](#exclude-files-from-version-control--ignore)
   * [Check project status](#check-project-status)
   * [Add a remote repository](#add-a-remote-repository)
   * [Add, commit, push & pull](#add--commit--push---pull)
@@ -14,6 +14,7 @@
     + [Log](#log)
     + [History](#history)
   * [Register a GitHub account](#register-a-github-account)
+
 
 
 ## Enable version control
@@ -30,7 +31,7 @@ Kies `git` als Version Control system
 
 Het project waarin je dit hebt uitgevoerd is nu een lokale git repository. Een `.git` folder wordt toegevoegd aan die map
 
-## Check out a project from a remote host (clone)﻿
+## Check out a project from a remote host: clone﻿
 
 Bestaat er reeds een remote repository (bv. op GitHub) dan kan je deze repository clonen (= downloaden van het project met volledige versie geschiedenis)
 
@@ -54,7 +55,7 @@ Klik op clone
 
 Merk langs de linkerkant van bovenstaand scherm onder "Repository URL" ook een mogelijkheid op om repositories gekoppeld aan je GitHub account te clonen. Hiervoor dien je je GitHub account toe te voegen in Intellij (zie verder in dit document: Register a GitHub account﻿).
 
-## Exclude files from version control (ignore)
+## Exclude files from version control: ignore
 
 Niet alle bestanden in het project wil je opnemen in version control.
 
