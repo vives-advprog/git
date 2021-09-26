@@ -1,8 +1,8 @@
 # Werken met git in Intellij
 
   * [Enable version control](#enable-version-control)
-  * [Check out a project from a remote host: clone](#check-out-a-project-from-a-remote-host--clone)
-  * [Exclude files from version control: ignore](#exclude-files-from-version-control--ignore)
+  * [Check out a project from a remote host: clone](#check-out-a-project-from-a-remote-host-clone)
+  * [Exclude files from version control: ignore](#exclude-files-from-version-control-ignore)
   * [Check project status](#check-project-status)
   * [Add a remote repository](#add-a-remote-repository)
   * [Add, commit, push & pull](#add--commit--push---pull)
