@@ -41,7 +41,11 @@ Open Intellij (zonder project). Je krijgt het Welcome screen te zien
 
 Kies voor `Get from Version Control`
 
-Of via Intellij menu: **VCS | Get from Version Control**
+Of via Intellij menu: 
+
+**File | New | Get from Version Control**
+
+**VCS | Project from Version Control**
 
 ---
 
