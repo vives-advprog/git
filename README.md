@@ -12,8 +12,6 @@ In het vak Advanced Programming zullen we zo veel mogelijk git gebruiken voor he
 ## .gitignore
 Voeg in de root van je git repository een hidden text file toe: _.gitignore_ (schrijfwijze is van belang).
 
-De hidden file .gitignore staat dus naast de hidden map /.git in je projectmap
-
 In dit bestand kan je een opsomming geven van bestanden of mappen uit je project die je liever niet in je git repository wenst.
 
 Dit kunnen bijvoorbeeld zijn:
@@ -23,6 +21,3 @@ Dit kunnen bijvoorbeeld zijn:
 * dependencies die via maven beheerd worden
 * ...
 
-[Een voorbeeld die voldoende is voor tijdens het vak Advanced Programming vind je hier](https://github.com/vives-advprog/fop-gitignore/blob/master/.gitignore)
-
-> Voeg dit .gitignore bestand toe aan ieder project dat je wil bijhouden in een git-repository. Voeg dit bestand toe nog voor je een eerste commit doet!
