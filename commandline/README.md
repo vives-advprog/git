@@ -24,7 +24,7 @@ git config --global user.email "[voornaam.familienaam@student.vives.be]"
 ## Nieuwe repository
 Bestaat er reeds een remote repository (bv. op GitHub) dan kan je deze repository clonen (= downloaden van het project met volledige versie geschiedenis)
 ```
-git clone https://github.com/vives-advprog/fop-gitignore.git
+git clone https://github.com/vives-advprog/eenrepository.git
 ```
 
 Bestaat er nog geen remote repository, maar je hebt wel al lokaal files (code) staan. Maak dan een lokale repository aan
@@ -124,6 +124,4 @@ Dit kunnen bijvoorbeeld zijn:
 * dependencies die via maven beheerd worden
 * ...
 
-[Een voorbeeld die voldoende is voor tijdens het vak Advanced Programming vind je hier](https://github.com/vives-advprog/fop-gitignore/blob/master/.gitignore)
-
-> Voeg dit .gitignore bestand toe aan ieder project dat je wil bijhouden in een git-repository. Voeg dit bestand toe nog voor je een eerste commit doet!
+> Voeg een .gitignore bestand toe aan ieder project dat je wil bijhouden in een git-repository. Voeg dit bestand toe nog voor je een eerste commit doet!
