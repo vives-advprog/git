@@ -67,6 +67,20 @@ Voeg een `.gitignore` bestand toe aan de root van je project.
 
 Intellij menu: **New | File** met de naam `.gitignore`
 
+Dit neem je zeker op in ieder `.gitignore` bestand binnen een Java project in Intellij
+```
+### IntelliJ IDEA ###
+/.idea/
+*.iws
+*.iml
+*.ipr
+target/
+out/
+
+### Mac OS ###
+.DS_Store
+```
+
 ## Check project status﻿
 
 In Intellij is het mogelijk om de status van je lokale directory te vergelijken met de repository versie van je project.
