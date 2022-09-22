@@ -125,3 +125,17 @@ Dit kunnen bijvoorbeeld zijn:
 * ...
 
 > Voeg een .gitignore bestand toe aan ieder project dat je wil bijhouden in een git-repository. Voeg dit bestand toe nog voor je een eerste commit doet!
+
+Volgende inhoud neem je minstens op in ieder `.gitignore` bestand binnen een Java project in Intellij
+```
+### IntelliJ IDEA ###
+/.idea/
+*.iws
+*.iml
+*.ipr
+target/
+out/
+
+### Mac OS ###
+.DS_Store
+```
