@@ -67,7 +67,7 @@ Voeg een `.gitignore` bestand toe aan de root van je project.
 
 Intellij menu: **New | File** met de naam `.gitignore`
 
-Dit neem je zeker op in ieder `.gitignore` bestand binnen een Java project in Intellij
+Volgende inhoud neem je minstens op in ieder `.gitignore` bestand binnen een Java project in Intellij
 ```
 ### IntelliJ IDEA ###
 /.idea/
