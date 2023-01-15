@@ -69,13 +69,22 @@ Intellij menu: **New | File** met de naam `.gitignore`
 
 Volgende inhoud neem je minstens op in ieder `.gitignore` bestand binnen een Java project in Intellij
 ```
-### IntelliJ IDEA ###
-/.idea/
+### Intellij ###
+
+# .idea folder
+.idea/
+
+# File-based project format
 *.iws
 *.iml
 *.ipr
-target/
+
+# IntelliJ
 out/
+target/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
 
 ### Mac OS ###
 .DS_Store
