@@ -15,7 +15,7 @@
     + [History](#history)
   * [Register a GitHub account](#register-a-github-account)
 
-## Nieuwe repository
+## Een remote git repository clonen
 Bestaat er reeds een remote repository (bv. op GitHub) dan kan je deze repository clonen (= downloaden van de volledige remote git repository naar een lokale git repository met de volledige versie geschiedenis)
 
 Open Intellij (zonder project te selecteren). Je krijgt het Welcome screen te zien
@@ -50,28 +50,35 @@ Merk langs de linkerkant van bovenstaand scherm ook een mogelijkheid op om alle 
 
 ![fromGitHub](images/fromGitHub)
 
-## Enable version control
-
-Bestaat er nog geen remote repository, maar je hebt wel al lokaal sourcecode staan. Maak dan eerst een lokale repository aan.
+## Een lokale git repository aanmaken
+Bestaat er nog geen remote repository, maar je hebt wel al lokaal files (code) staan. Maak dan een lokale repository aan
 
 Intellij menu: **VCS | Enable Version Control integration**
 
-![Enable Version Control integration](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/enableVersionControlIntegration.png 'Enable Version Control integration')
+![Enable Version Control integration](images/enableVersionControlIntegration 'Enable Version Control integration')
 
 Kies `git` als Version Control system
 
-![Version Control git](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/versionControlGit.png 'Version Control git')
+![Version Control git](images/versionControlGit.png 'Version Control git')
 
 Het project waarin je dit hebt uitgevoerd is nu een lokale git repository. Een `.git` folder wordt toegevoegd aan die map
-
-## Check out a project from a remote host: clone
-
 
 ## Exclude files from version control: ignore
 
 Niet alle bestanden in het project wil je opnemen in version control.
 
-Voeg een `.gitignore` bestand toe aan de root van je project.
+Voeg in de root van je git repository een (hidden) bestand toe dat exact de volgende naam heeft: `.gitignore` .
+
+In dit bestand kan je een opsomming geven van bestanden of mappen uit je project die je liever niet in je git repository wenst.
+
+Dit kunnen bijvoorbeeld zijn:
+* gebruikersspecifieke bestanden met de settings van je IDE bv.
+* Bestanden en mappen die gegeneerd worden. Bv: target folder nu het builden van een project
+* logfiles van je applicatie
+* dependencies die via maven beheerd worden
+* ...
+
+> Voeg een .gitignore bestand toe aan ieder project dat je wil bijhouden in een git-repository. Voeg dit bestand toe nog voor je een eerste commit doet!
 
 Intellij menu: **New | File** met de naam `.gitignore`
 
@@ -98,23 +105,23 @@ target/
 .DS_Store
 ```
 
-## Check project status﻿
+## Check project status
 
 In Intellij is het mogelijk om de status van je lokale directory te vergelijken met de repository versie van je project.
 
 Intellij menu: **View | Tool Windows | Git**
 
-![git status](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/gitStatus.png 'git status')
+![git status](images/gitStatus.png 'git status')
 
 * De **Default** lijst toont alle bestanden die zijn gewijzigd sinds de laatste keer dat je gesynchroniseerd hebt met de remote repository (blauw) en alle nieuwe bestanden die aan git zijn toegevoegd maar nog niet zijn gecommit (groen)
 
 * De **Unversioned Files** lijst bevat alle bestanden die zijn toegevoegd aan het project, maar nog niet werden toegevoegd aan git (`git add <naam van het bestand>`)
 
-## Add a remote repository﻿
+## Add a remote repository
 
 Wanneer je een Git project hebt gecloned van een remote repository, dan is de link tussen je local repository en de remote repository meteen ingesteld.
 
-Als je echter start vanaf een lokaal git project, een local repository, die je ook wil delen met andere via een remote git repository dan moet je de link naar de remote repository nog configureren in je git project.
+Als je echter start vanaf een local git repository die je wil synchroniseren met een remote git repository dan moet je de link naar de remote repository nog configureren in je git project.
 
 Voorwaarde: Er bestaat reeds een lege remote repository (bv. op GitHub)
 ![leeg remote](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/leegRemote.png 'leeg remote')
@@ -140,25 +147,33 @@ Er zijn meerdere mogelijkheden om in Intellij bestanden toe te voegen aan de sta
 ### Add/Commit
 
 * Via de Git tool window: **View | Tool Windows | Git**
-* CTRL+K (of ⌘K)
-* Rechts klikken op een file/folder/projectroot: **Git | Commit File... / Add**
-* Icoon in menubar = Groen vinkje
+  ![commit](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/commit.png 'commit')
 
-![commit](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/commit.png 'commit')
+* Via het menu Git > Commit
+  ![git commit menu](images/commitMenu.png)
+
+* Rechts klikken op een file/folder/projectroot: **Git | Commit File... / Add**
+  ![commit_rechts_klik](images/commitRechtsKlik.png)
+
+* Via menubar
+  ![gitMenuBar](images/commitMenuBar)
+
+* CTRL+K (of ⌘K)
+
 
 Commit changes dialog:
 
-![commit changes dialog](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/commitChangesDialog.png 'ommit changes dialog')
+![commit changes dialog](images/commitChangesDialog.png 'ommit changes dialog')
 
 Bovenaan: Bestanden die reeds zijn toegevoegd aan local repository (groen en blauw) en bestanden die nog niet zijn toegevoegd onder Unversioned Files (rood)
 
-Vink een _Unversioned File_ aan om deze toe te voegen aan je staging area = `git add <naam van het bestand>`
+Vink een _Unversioned File_ aan om deze toe te voegen aan je staging area = `git add pom.xml`
 
-Commit message: geef een message mee die hoort bij de commit = `git commit -m "Mijn commit message"`
+Commit message: geef een message mee die hoort bij de commit = `git commit -m "create new person"`
 
 Diff: Vergelijk de wijzigingen per bestand tussen de staging area en je lokale repository
 
-Rechts: vink de opties "Perform code analysis" en "Check TODO" af
+Rechts: vink de opties "Perform code analysis" en "Check TODO" af, vink "Optimize imports" aan
 
 Onderaan:
 
@@ -198,6 +213,8 @@ Ophalen van wijzigingen van remote repository naar lokale Repository = `git pull
 Kies voor: _merge incoming changes into the current branch_
 
 ![merge](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/merge.png 'merge')
+
+
 
 ## Log en History
 

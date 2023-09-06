@@ -20,13 +20,13 @@ Je emailadres instellen dat zichtbaar zal zijn bij iedere commit
 ```
 git config --global user.email "[voornaam.familienaam@student.vives.be]"
 ```
-
-## Nieuwe repository
+## Een remote git repository clonen
 Bestaat er reeds een remote repository (bv. op GitHub) dan kan je deze repository clonen (= downloaden van de volledige remote git repository naar een lokale git repository met de volledige versie geschiedenis)
 ```
 git clone https://github.com/vives-advprog/eenrepository.git
 ```
 
+## Een lokale git repository aanmaken
 Bestaat er nog geen remote repository, maar je hebt wel al lokaal files (code) staan. Maak dan een lokale repository aan
 ```
 git init
@@ -110,10 +110,10 @@ git pull
 git push
 ```
 
-## .gitignore
-Voeg in de root van je git repository een hidden text file toe: _.gitignore_ (schrijfwijze is van belang).
+## Exclude files from version control: ignore
+Voeg in de root van je git repository een (hidden) bestand toe dat exact de volgende naam heeft: `.gitignore` .
 
-De hidden file .gitignore staat dus naast de hidden map /.git in je projectmap
+De hidden file `.gitignore` staat dus naast de hidden map /.git in je projectmap
 
 In dit bestand kan je een opsomming geven van bestanden of mappen uit je project die je liever niet in je git repository wenst.
 
