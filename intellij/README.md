@@ -147,19 +147,22 @@ Er zijn meerdere mogelijkheden om in Intellij bestanden toe te voegen aan de sta
 ### Add/Commit
 
 * Via de Git tool window: **View | Tool Windows | Git**
-  ![commit](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/commit.png 'commit')
+
+![commit](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/commit.png 'commit')
 
 * Via het menu Git > Commit
-  ![git commit menu](images/commitMenu.png)
+
+![git commit menu](images/commitMenu.png)
 
 * Rechts klikken op een file/folder/projectroot: **Git | Commit File... / Add**
-  ![commit_rechts_klik](images/commitRechtsKlik.png)
+
+![commit_rechts_klik](images/commitRechtsKlik.png)
 
 * Via menubar
-  ![gitMenuBar](images/commitMenuBar)
+
+![gitMenuBar](images/commitMenuBar)
 
 * CTRL+K (of ⌘K)
-
 
 Commit changes dialog:
 
@@ -180,17 +183,20 @@ Onderaan:
 * Commit  = `git commit`
 * Commit and Push = `git commit & git push`
 
-![commit push](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/commitAndPush.png 'commit push')
+![commit push](images/commitAndPush.png 'commit push')
 
 ### Push
 
 Nadat je alle wijzigingen hebt gecommit naar je lokale repository wil je deze ook doorvoeren naar je remote repository = `git push`
 
-* CTRL+Shift+K (of ⌘+Shift+K)
-* Icoon bovenaan in menubar
+* Via de Git tool window: **View | Tool Windows | Git**
+* Via het menu Git > Push
 * Rechts klikken op een file/folder/projectroot: **Git | Repository | Push**
+* Via menubar
 
-![push](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/push.png 'push')
+![gitMenuBarPush](images/gitMenuBarPush)
+
+* CTRL+Shift+K (of ⌘+Shift+K)
 
 Push dialog met alle lokale commits opgelijst
 
