@@ -11,7 +11,7 @@
   * [.gitignore](#gitignore)
 
 ## git configureren
-Je username instellen die zichtbaar zal zijn bij iedere commit
+Je username instellen dat zichtbaar zal zijn bij iedere commit
 ```
 git config --global user.name "[name]"
 ```
@@ -128,13 +128,22 @@ Dit kunnen bijvoorbeeld zijn:
 
 Volgende inhoud neem je minstens op in ieder `.gitignore` bestand binnen een Java project in Intellij
 ```
-### IntelliJ IDEA ###
-/.idea/
+### Intellij ###
+
+# .idea folder
+.idea/
+
+# File-based project format
 *.iws
 *.iml
 *.ipr
-target/
+
+# IntelliJ
 out/
+target/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
 
 ### Mac OS ###
 .DS_Store

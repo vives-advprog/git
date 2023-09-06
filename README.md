@@ -21,3 +21,25 @@ Dit kunnen bijvoorbeeld zijn:
 * dependencies die via maven beheerd worden
 * ...
 
+Inhoud .gitignore bestand voor Java projecten in Intellij
+```
+### Intellij ###
+
+# .idea folder
+.idea/
+
+# File-based project format
+*.iws
+*.iml
+*.ipr
+
+# IntelliJ
+out/
+target/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+### Mac OS ###
+.DS_Store
+```
