@@ -16,36 +16,39 @@
   * [Register a GitHub account](#register-a-github-account)
 
 ## Nieuwe repository
-Bestaat er reeds een remote repository (bv. op GitHub) dan kan je deze repository clonen (= downloaden van het project met volledige versie geschiedenis)
+Bestaat er reeds een remote repository (bv. op GitHub) dan kan je deze repository clonen (= downloaden van de volledige remote git repository naar een lokale git repository met de volledige versie geschiedenis)
 
 Open Intellij (zonder project te selecteren). Je krijgt het Welcome screen te zien
 
-![img.png](images/IntellijSplash.png)
+![IntellijSplash](images/IntellijSplash.png)
 
-Kies rechtsbovenaan voor ***Get from VCS***
+Klik rechtsbovenaan op **Get from VCS**
 
 Of éénmaal Intellij al een project open heeft staan via:
 
-**File | New | Get from Version Control**
+>File | New | Get from Version Control**
 
-**VCS | Project from Version Control**
+![fromversioncontrol](images/fromVersionControl)
+
+>VCS | Project from Version Control**
 
 Volgend scherm wordt getoond:
 
-![img.png](images/fromVCS.png)
+![fromVCS](images/fromVCS.png)
 
-
----
+Kopieer de url van de remote git repository die je wil clonen. In onderstaande voorbeeld is dit https://github.com/vives-advprog/SorteerAlgoritmen.git
 
 ![git remote repo](images/gitRemoteRepo2 'git remote repo')
 
-Geef de url van de remote repository (die je net hebt gekopieerd uit bovenstaand scherm) op in het veld URL en bepaal in welke directory je het project wil clonen.
+Geef de net gekopieerde url van de remote repository op in het veld URL en bepaal in welke directory je het project wil clonen.
 
 ![git clone](images/gitClone2 'git clone')
 
 Klik op clone
 
 Merk langs de linkerkant van bovenstaand scherm ook een mogelijkheid op om alle repositories gekoppeld aan je GitHub account op te vragen en te clonen. Hiervoor dien je je GitHub account toe te voegen in Intellij (zie verder in dit document: Register a GitHub account)
+
+![fromGitHub](images/fromGitHub)
 
 ## Enable version control
 

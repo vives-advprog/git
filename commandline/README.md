@@ -22,7 +22,7 @@ git config --global user.email "[voornaam.familienaam@student.vives.be]"
 ```
 
 ## Nieuwe repository
-Bestaat er reeds een remote repository (bv. op GitHub) dan kan je deze repository clonen (= downloaden van het project met volledige versie geschiedenis)
+Bestaat er reeds een remote repository (bv. op GitHub) dan kan je deze repository clonen (= downloaden van de volledige remote git repository naar een lokale git repository met de volledige versie geschiedenis)
 ```
 git clone https://github.com/vives-advprog/eenrepository.git
 ```
