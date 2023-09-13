@@ -128,17 +128,17 @@ Voorwaarde: Er bestaat reeds een lege remote repository (bv. op GitHub)
 
 Voorwaarde: je project is reeds een local git repository
 
-Intellij menu: **VCS | git | Remotes...**
+Intellij menu: **Git | Manage Remotes...**
 
 Klik op de +
 
-![Add remote](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/addRemote.png 'add remote')
+![Add remote](images/addRemote.png)
 
 Name: origin
 
 URL: <de url van de lege remote repository> (deze vind je terug in de blauwe balk op GitHub en eindigt op .git)
 
-![Add remote ok](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/addRemoteOk.png 'add remote ok')
+![Add remote ok](images/addRemoteOk.png)
 
 ## Add, commit, push & pull
 
@@ -148,13 +148,13 @@ Er zijn meerdere mogelijkheden om in Intellij bestanden toe te voegen aan de sta
 
 * Via de Git tool window: **View | Tool Windows | Git**
 
-![commit](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/commit.png 'commit')
+![commit](images/commit.png)
 
 * Via het menu Git > Commit
 
 ![git commit menu](images/commitMenu.png)
 
-* Rechts klikken op een file/folder/projectroot: **Git | Commit File... / Add**
+* Rechts klikken op een file/folder/projectroot: **Git | Commit File/Directory... / Add**
 
 ![commit_rechts_klik](images/commitRechtsKlik.png)
 
