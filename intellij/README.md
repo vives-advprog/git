@@ -6,7 +6,7 @@
 * [Check project status](#check-project-status)
 * [Add a remote repository](#add-a-remote-repository)
 * [Add, commit, push en pull](#add-commit-push-en-pull)
-    + [Add en Commit](#add en commit)
+    + [Add en Commit](#add-en-commit)
     + [Push](#push)
     + [Pull](#pull)
     + [Update](#update)
