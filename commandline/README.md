@@ -1,14 +1,15 @@
 # Werken met git via de command line
 
-  * [git configureren](#git-configureren)
-  * [Nieuwe repository](#nieuwe-repository)
-  * [Lokale aanpassingen](#lokale-aanpassingen)
-  * [Geschiedenis opvragen](#geschiedenis-opvragen)
-  * [Synchroniseren van aanpassingen](#synchroniseren-van-aanpassingen)
+* [git configureren](#git-configureren)
+* [Een remote git repository clonen](#een-remote-git-repository-clonen)
+* [Een lokale git repository aanmaken](#een-lokale-git-repository-aanmaken)
+* [Lokale aanpassingen](#lokale-aanpassingen)
+* [Geschiedenis opvragen](#geschiedenis-opvragen)
+* [Synchroniseren van aanpassingen](#synchroniseren-van-aanpassingen)
     + [Local naar remote repository](#local-naar-remote-repository)
     + [Remote naar local repository](#remote-naar-local-repository)
-  * [Een goeie git workflow](#een-goeie-git-workflow)
-  * [.gitignore](#gitignore)
+* [Een goeie git workflow](#een-goeie-git-workflow)
+* [Exclude files from version control: ignore](#exclude-files-from-version-control--ignore)
 
 ## git configureren
 Je username instellen dat zichtbaar zal zijn bij iedere commit

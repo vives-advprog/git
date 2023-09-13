@@ -1,19 +1,19 @@
 # Werken met git in Intellij
 
-  * [Enable version control](#enable-version-control)
-  * [Check out a project from a remote host: clone](#check-out-a-project-from-a-remote-host-clone)
-  * [Exclude files from version control: ignore](#exclude-files-from-version-control-ignore)
-  * [Check project status](#check-project-status)
-  * [Add a remote repository](#add-a-remote-repository)
-  * [Add, commit, push & pull](#add--commit--push---pull)
+* [Een remote git repository clonen](#een-remote-git-repository-clonen)
+* [Een lokale git repository aanmaken](#een-lokale-git-repository-aanmaken)
+* [Exclude files from version control: ignore](#exclude-files-from-version-control--ignore)
+* [Check project status](#check-project-status)
+* [Add a remote repository](#add-a-remote-repository)
+* [Add, commit, push & pull](#add--commit--push---pull)
     + [Add/Commit](#add-commit)
     + [Push](#push)
     + [Pull](#pull)
     + [Update](#update)
-  * [Log en History](#log-en-history)
+* [Log en History](#log-en-history)
     + [Log](#log)
     + [History](#history)
-  * [Register a GitHub account](#register-a-github-account)
+* [Register a GitHub account in Intellij](#register-a-github-account-in-intellij)
 
 ## Een remote git repository clonen
 Bestaat er reeds een remote repository (bv. op GitHub) dan kan je deze repository clonen (= downloaden van de volledige remote git repository naar een lokale git repository met de volledige versie geschiedenis)
