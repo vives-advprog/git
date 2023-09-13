@@ -132,13 +132,13 @@ Intellij menu: **Git | Manage Remotes...**
 
 Klik op de +
 
-![Add remote](images/addRemote.png)
+![Add remote](images/addRemote)
 
 Name: origin
 
 URL: `de url van de lege remote repository.git` (deze vind je terug in de blauwe balk op GitHub en eindigt op .git)
 
-![Add remote ok](images/addRemoteOk.png)
+![Add remote ok](images/addRemoteOk)
 
 ## Add, commit, push & pull
 
@@ -148,7 +148,7 @@ Er zijn meerdere mogelijkheden om in Intellij bestanden toe te voegen aan de sta
 
 * Via de Git tool window: **View | Tool Windows | Git**
 
-![commit](images/commit.png)
+![commit](images/commit)
 
 * Via het menu Git > Commit
 
