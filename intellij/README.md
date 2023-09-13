@@ -5,8 +5,8 @@
 * [Exclude files from version control: ignore](#exclude-files-from-version-control--ignore)
 * [Check project status](#check-project-status)
 * [Add a remote repository](#add-a-remote-repository)
-* [Add, commit, push en pull](#add--commit--push-en-pull)
-    + [Add/Commit](#add-commit)
+* [Add, commit, push en pull](#add-commit-push-en-pull)
+    + [Add en Commit](#add en commit)
     + [Push](#push)
     + [Pull](#pull)
     + [Update](#update)
@@ -144,11 +144,11 @@ Resultaat na linken van lokale repository met remote repository
 
 ![gitRemoteResult](gitRemoteResult)
 
-## Add, commit, push en pull
+## Add commit push en pull
 
 Er zijn meerdere mogelijkheden om in Intellij bestanden toe te voegen aan de staging area, bestanden te committen in de local repository of te pushen/pullen naar/van de remote repository
 
-### Add/Commit
+### Add en Commit
 
 * Via de Git tool window: **View | Tool Windows | Git**
 
