@@ -164,7 +164,7 @@ Er zijn meerdere mogelijkheden om in Intellij bestanden toe te voegen aan de sta
 
 * CTRL+K (of ⌘K)
 
-Commit changes dialog:
+Na 1 van bovenstaande opties uit te voeren komt het Commit changes dialog tevoorschijn:
 
 ![commit changes dialog](images/commitChangesDialog.png 'ommit changes dialog')
 
@@ -191,14 +191,14 @@ Nadat je alle wijzigingen hebt gecommit naar je lokale repository wil je deze oo
 
 * Via de Git tool window: **View | Tool Windows | Git**
 * Via het menu Git > Push
-* Rechts klikken op een file/folder/projectroot: **Git | Repository | Push**
+* Rechts klikken op een file/folder/projectroot: **Git | Push**
 * Via menubar
 
 ![gitMenuBarPush](images/gitMenuBarPush)
 
 * CTRL+Shift+K (of ⌘+Shift+K)
 
-Push dialog met alle lokale commits opgelijst
+Na 1 van bovenstaande opties uit te voeren komt het Push dialog tevoorschijn met alle lokale commits opgelijst
 
 ![push dialog](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/pushDialog.png 'push dialog')
 
@@ -254,27 +254,15 @@ In het Git Tool Window wordt een extra tabblad toegevoegd met de history van enk
 
 ![history file](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/historyFile.png 'history file')
 
-## Register a GitHub account
+## Register a GitHub account in Intellij
 
-Open https://github.com en log in
+Om toegang te krijgen tot een private repository op GitHub moet je jezelf authentiseren.
 
-Ga naar de settings van je profiel: https://github.com/settings/profile
+In Intellij is het vrij eenvoudig om je GitHub account te registreren.
 
-Kies in de linkerkolom voor: Developer settings 
+Op deze link staat beschreven hoe je je GitHub account registreert: https://www.jetbrains.com/help/idea/github.html
 
-Om vervolgens in de linkerkolom **Personal access tokens** aan te klikken
-
-![accessToken](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/accessToken.png 'accessToken')
-
-Klik op de knop **Generate new token**
-
-Geef die een naam (Note). Bv: Intellij of commandline (afhankelijk waarvoor je het gebruikt)
-
-Vink alle vinkjes aan en klik onderaan op **Generate token**
-
-![resultToken](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/resultToken.png 'resultToken')
-
-Kopieer het token en open Intellij
+Kies voor de optie: Register an existing account with a token
 
 ![preferences](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/preferences.png 'preferences')
 
