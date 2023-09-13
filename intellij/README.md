@@ -206,6 +206,13 @@ Na 1 van bovenstaande opties uit te voeren komt het Push dialog tevoorschijn met
 
 ![pushDialog](images/pushDialog)
 
+Wanneer je voor het eerst een push uitvoert, maar er nog geen remote link is gedefinieerd van je lokale repository naar de remote repository krijg je de Push dialog te zien met een link Define remote
+
+![define remote](images/defineRemote.png)
+
+Na het klikken op "Define remote" wordt het Define remote scherm getoond zoals je dit ook krijgt via het Intellij menu: **Git | Manage Remotes...**
+
+![defineRemoteOk](images/defineRemoteOk.png)
 
 ### Pull
 
@@ -216,15 +223,17 @@ Ophalen van wijzigingen van remote repository naar lokale Repository = `git pull
 ### Update
 
 * CTRL+T (of ⌘T)
-* Intellij menu: **VCS | Update project**
-* Icoon in menubar = Blauwe pijl naar beneden
+* Intellij menu: **Git | Pull...**
+![gitpull](images/gitpull)
 
-![update](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/update.png 'update')
+* Via menubar
+
+![updateProjectMenuBar](images/updateProjectMenuBar)
+
 
 Kies voor: _merge incoming changes into the current branch_
 
 ![merge](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/merge.png 'merge')
-
 
 
 ## Log en History
@@ -237,7 +246,7 @@ Intellij menu: **View | Tool Windows | Git**
 
 Tabblad: Log
 
-![git log](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/gitLog.png 'git log')
+![git log](images/gitLog)
 
 * Links: Overzicht van de verschillende branches, zowel op je local repository als op de remote repository
 * Midden: Overzicht van alle commits
@@ -245,9 +254,7 @@ Tabblad: Log
 
 Dubbel klik op 1 van die bestanden of kies voor Show Diff om de wijzigingen van die commit op te vragen
 
-![show diff](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/showDiff.png 'show diff')
-
-![compare diff](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/compareDiff.png 'compare diff')
+![show diff](images/showDiff)
 
 ### History
 
@@ -257,7 +264,7 @@ Ophalen van de git history van 1 bestand
 
 In het Git Tool Window wordt een extra tabblad toegevoegd met de history van enkel dat bestand
 
-![history file](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/historyFile.png 'history file')
+![history file](images/historyFile)
 
 ## Register a GitHub account in Intellij
 
