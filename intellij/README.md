@@ -136,7 +136,7 @@ Klik op de +
 
 Name: origin
 
-URL: <de url van de lege remote repository> (deze vind je terug in de blauwe balk op GitHub en eindigt op .git)
+URL: `de url van de lege remote repository.git` (deze vind je terug in de blauwe balk op GitHub en eindigt op .git)
 
 ![Add remote ok](images/addRemoteOk.png)
 
