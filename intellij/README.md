@@ -256,15 +256,11 @@ In het Git Tool Window wordt een extra tabblad toegevoegd met de history van enk
 
 ## Register a GitHub account in Intellij
 
-Om toegang te krijgen tot een private repository op GitHub moet je jezelf authentiseren.
+Intellij maakt het mogelijk om je GitHub repositories rechtstreeks te benaderen via de IDE.
 
-In Intellij is het vrij eenvoudig om je GitHub account te registreren.
+Om toegang te krijgen tot je GitHub repositories moet je jezelf authenticeren door je GitHub account te registreren in Intellij. Dit doe je als volgt:
 
-Op deze link staat beschreven hoe je je GitHub account registreert: https://www.jetbrains.com/help/idea/github.html
-
-Kies voor de optie: Register an existing account with a token
-
-![preferences](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/preferences.png 'preferences')
+Open het Settings/Preferences scherm
 
 Windows: **File | Settings**
 MacOS: **Intellij IDEA | Preferences**
@@ -273,9 +269,18 @@ MacOS: **Intellij IDEA | Preferences**
 
 Klik + om een GitHub account toe te voegen
 
-Log in Via token
+![logInWithToken](images/logInWithToken.png)
 
-![token](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/token.png 'token')
+Klik op Generate
 
-Plak het net aangemaakte token in Intellij
+![generatetoken](images/generatetoken.png)
 
+Op de token generate pagina die wordt geopend geef je een beschrijving aan het token en laat je alle voorgeselecteerde scopes aangevinkt. 
+
+Onderaan de pagina klik je op Generate Token. Een token wordt voor je aangemaakt.
+
+Kopieer en plak het net aangemaakte token in Intellij
+
+Add Account
+
+Zie ook deze link om een GitHub account te registreren in Intellij: https://www.jetbrains.com/help/idea/github.html
