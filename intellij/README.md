@@ -140,6 +140,10 @@ URL: `de url van de lege remote repository.git` (deze vind je terug in de blauwe
 
 ![Add remote ok](images/addRemoteOk)
 
+Resultaat na linken van lokale repository met remote repository
+
+![gitRemoteResult](gitRemoteResult)
+
 ## Add, commit, push & pull
 
 Er zijn meerdere mogelijkheden om in Intellij bestanden toe te voegen aan de staging area, bestanden te committen in de local repository of te pushen/pullen naar/van de remote repository
@@ -200,7 +204,8 @@ Nadat je alle wijzigingen hebt gecommit naar je lokale repository wil je deze oo
 
 Na 1 van bovenstaande opties uit te voeren komt het Push dialog tevoorschijn met alle lokale commits opgelijst
 
-![push dialog](https://github.com/vives-advprog/werken-met-git/blob/master/intellij/images/pushDialog.png 'push dialog')
+![pushDialog](images/pushDialog)
+
 
 ### Pull
 
