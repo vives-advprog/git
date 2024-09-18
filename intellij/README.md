@@ -281,6 +281,8 @@ MacOS: **Intellij IDEA | Preferences**
 
 Klik + om een GitHub account toe te voegen
 
+Kies voor de optie om **in te loggen adhv een token**
+
 ![logInWithToken](images/logInWithToken.png)
 
 Klik op Generate
@@ -289,10 +291,12 @@ Klik op Generate
 
 Op de token generate pagina die wordt geopend geef je een beschrijving aan het token en laat je alle voorgeselecteerde scopes aangevinkt. 
 
+Tip (maar minder secure): je kan de expiration date van je access token aanpassen naar meer dan 30 dagen. No expiration kiezen voor je access token raden we af. 
+
 Onderaan de pagina klik je op Generate Token. Een token wordt voor je aangemaakt.
 
-Kopieer en plak het net aangemaakte token in Intellij
+Kopieer en plak het net aangemaakte token in IntelliJ
 
 Add Account
 
-Zie ook deze link om een GitHub account te registreren in Intellij: https://www.jetbrains.com/help/idea/github.html
+Zie ook deze link om een GitHub account te registreren in IntelliJ: https://www.jetbrains.com/help/idea/github.html
